@@ -6,10 +6,18 @@
     </head>
     <body>
         <form>
-            <input name="email" type="text" id="email" ><br>
-            <input name="name" type="text" id="name"><br>
-            <input name="password" type="text" id="pword"><br>
-            <input name="gender" type="radio" id="male"><br>
+            <label>Email </label><input name="email" type="text" id="email" ><br>
+            <label>Name </label><input name="name" type="text" id="name"><br>
+            <label>Password </label><input name="password" type="password" id="pword"><br>
         </form> 
+        <form>
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+          </form>
     </body>
 </html>
