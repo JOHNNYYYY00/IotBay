@@ -10,12 +10,7 @@
         </head>
 
         <body>
-            <h1>Hello World!</h1>
-            <form action="./pages/celebration.jsp" method="GET">
-                <button type="submit">
-                    press this button
-                </button>
-            </form>
+            <h1>I HATE YOU!!!</h1>
         </body>
 
         </html>
